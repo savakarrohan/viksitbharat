@@ -3,19 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --background: #faf9f6;
+  --background: #fef5eb;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
-    --foreground: #faf9f6;
+    --foreground: #fef5eb;
   }
 }
 
+html,
 body {
   color: var(--foreground);
+  height: 100%;
   background: var(--background);
   font-family: "Geist", Arial, Helvetica, sans-serif;
 }

@@ -31,7 +31,7 @@ export default function CustomNavBar() {
       isBordered={true}
       shouldHideOnScroll={true}
     >
-      <NavbarContent justify="end">
+      <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
@@ -48,7 +48,7 @@ export default function CustomNavBar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="start">
+      <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {menuItems.map((item, index) => (
           <NavbarItem key={item.key}>
             <Link color="foreground" href="#">
