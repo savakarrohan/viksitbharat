@@ -31,7 +31,7 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx next build
+        run: NODE_ENV=production CI=true npx next build
 
       - name: Debug Build Output 🐛
         run: ls -la
