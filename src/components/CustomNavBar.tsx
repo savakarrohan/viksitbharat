@@ -10,7 +10,6 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
-  Button,
 } from "@heroui/react";
 import Image from "next/image";
 
@@ -49,16 +48,16 @@ export default function CustomNavBar() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
-        {menuItems.map((item, index) => (
+        {menuItems.map((item) => (
           <NavbarItem key={item.key}>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="#" className="font-semibold py-3">
               {item.name}
             </Link>
           </NavbarItem>
         ))}
       </NavbarContent>
       <NavbarMenu>
-        {menuItems.map((item, index) => (
+        {menuItems.map((item) => (
           <NavbarMenuItem key={item.key}>
             <Link className="w-full" color="foreground" href="#" size="lg">
               {item.name}
