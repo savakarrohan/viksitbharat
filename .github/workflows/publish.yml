@@ -36,6 +36,9 @@ jobs:
       - name: Ensure write permissions for workspace 🛠️
         run: chmod -R 777 .
 
+      - name: Debug Write Permissions 🐛
+        run: ls -ld .
+
       - name: Build with Next.js 🏗️
         run: NODE_ENV=production CI=true npx next build
 
