@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
   basePath: "/viksitbharath",
   images: {
     domains: ["picsum.photos"],
+    unoptimized: true,
   },
 };
 
