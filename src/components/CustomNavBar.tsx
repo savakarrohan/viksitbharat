@@ -50,7 +50,11 @@ export default function CustomNavBar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {menuItems.map((item) => (
           <NavbarItem key={item.key}>
-            <Link color="foreground" href="#" className="font-semibold py-3">
+            <Link
+              color="foreground"
+              href={`#${item}`}
+              className="font-semibold py-3"
+            >
               {item.name}
             </Link>
           </NavbarItem>
