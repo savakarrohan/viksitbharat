@@ -40,7 +40,7 @@ jobs:
         run: ls -ld .
 
       - name: Build with Next.js 🏗️
-        run: NODE_ENV=production CI=true npx next build
+        run: pnpm build
 
       - name: Debug Build Output 🐛
         run: ls -la

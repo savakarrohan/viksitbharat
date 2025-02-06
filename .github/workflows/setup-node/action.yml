@@ -7,6 +7,12 @@ runs:
       uses: actions/setup-node@v4
       with:
         node-version: 22
+        cache: "pnpm"
+
+    - name: Install pnpm 🔧
+      uses: pnpm/action-setup@v2
+      with:
+        version: 9 # or the latest version you want
 
     - name: Cache dependencies ⚡
       id: cache_dependencies
@@ -18,4 +24,4 @@ runs:
     - name: Install dependencies 🔧
       shell: bash
       if: steps.cache_dependencies.outputs.cache-hit != 'true'
-      run: npm install
+      run: pnpm install
