@@ -38,7 +38,7 @@ export default function CustomNavBar() {
         <NavbarBrand>
           <Image
             className="dark:invert rounded-md "
-            src="viksitbharath/Icons/Flag_of_India.svg"
+            src="/viksitbharath/Icons/Flag_of_India.svg"
             alt="Indian Flag logo"
             width={40}
             height={38}
