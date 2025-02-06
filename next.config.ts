@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Output
-  // output: "export",
+  output: "export",
   /* config options here */
   // BasePath settings for my github page deployment
   basePath: "/viksitbharath",
