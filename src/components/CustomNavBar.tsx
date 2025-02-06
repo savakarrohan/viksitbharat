@@ -13,15 +13,10 @@ import {
 } from "@heroui/react";
 import Image from "next/image";
 
+import { menuItems } from "@/fixture/constants";
+
 export default function CustomNavBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const menuItems = [
-    { name: "Home", key: 1 },
-    { name: "Mission", key: 2 },
-    { name: "About Us", key: 3 },
-    { name: "Contact Us", key: 4 },
-  ];
 
   return (
     <Navbar
@@ -52,7 +47,7 @@ export default function CustomNavBar() {
           <NavbarItem key={item.key}>
             <Link
               color="foreground"
-              href={`#${item}`}
+              href={`#${item.name}`}
               className="font-semibold py-3"
             >
               {item.name}

@@ -1,10 +1,12 @@
 import { Divider } from "@heroui/react";
 import Image from "next/image";
 
+import { menuItems } from "@/fixture/constants";
+
 export default function Home() {
   return (
     <main>
-      <section className="py-20" id="#Home">
+      <section className="py-20" id="Home">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -36,7 +38,7 @@ export default function Home() {
         </div>
       </section>
       <Divider />
-      <section className="py-20" id="#Mission">
+      <section className="py-20" id="Mission">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
