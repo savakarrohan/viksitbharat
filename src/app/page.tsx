@@ -1,7 +1,6 @@
 import { Divider } from "@heroui/react";
 import Image from "next/image";
 
-import { menuItems } from "@/fixture/constants";
 import Mission from "./Mission";
 
 export default function Home() {

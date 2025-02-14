@@ -34,7 +34,7 @@ export default function Home() {
     },
   ];
 
-  let Ele = AVATAR_LIST.map((member, index) => (
+  const AVATARS = AVATAR_LIST.map((member, index) => (
     <div
       key={index}
       className="w-full text-lg flex flex-col items-center justify-between p-4 "
@@ -79,18 +79,83 @@ export default function Home() {
           </div>
           <div className="flex-1 p-6">
             <img
-              src="/viksitbharath/Icons/Flag_of_India.svg"
+              src="/viksitbharath/Images/CelebratingBharat.jpg"
               alt="Viksit Bharat"
               className="w-full h-auto rounded-lg"
             />
           </div>
         </div>
       </section>
+      {/* A section on our goals for innovation */}
+      <section className="w-full min-h-screen bg-[#005034] text-gray-900 flex items-center justify-center p-6">
+        <div className="container mx-auto grid grid-cols-12 gap-6">
+          <div className="col-span-12 rounded-2xl p-6 bg-white shadow-lg flex items-center justify-center md:col-span-4">
+            <img
+              src="/viksitbharath/Images/Mandala.jpg"
+              alt="Technology"
+              className="w-auto h-auto rounded-xl bg-gray-400"
+            />
+          </div>
+          <div className="col-span-12 bg-gray-100 p-6 rounded-2xl shadow-lg md:col-span-8 grid grid-cols-1 divide-y ">
+            {/* Row 1 */}
+            <div className="grid grid-cols-2 gap-4 py-4 items-center justify-center place-items-center">
+              <h1 className="text-3xl font-bold">AREAS OF FOCUS</h1>
+              <p className="text-xl font-semi-bold text-center">
+                To achieve self reliance in these sectors
+              </p>
+            </div>
+
+            {/* Row 2 */}
+            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+              <img
+                src="/viksitbharath/Images/Processor.png"
+                alt="Sector 2"
+                className="w-24 h-auto rounded-lg"
+              />
+              <div className="grid grid-col-1 gap1 text-center">
+                <p className="text-xl font-bold">Power Electronics</p>
+                <p className="">
+                  Envisioning advanced, sustainable power electronics
+                  manufacturing for self-reliance.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 3 */}
+            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+              <img
+                src="/viksitbharath/Images/AICompute.png"
+                alt="Sector 2"
+                className="w-24 h-auto rounded-lg"
+              />
+              <div className="grid grid-col-1 gap1 text-center">
+                <p className="text-xl font-bold">Artificial Intelligence</p>
+                <p className="">
+                  Safe data-driven innovation for efficiency, growth, and
+                  self-reliance.
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+              <img
+                src="/viksitbharath/Images/Medicine.png"
+                alt="Sector 2"
+                className="w-24 h-auto rounded-lg"
+              />
+              <div className="grid grid-col-1 gap1 text-center">
+                <p className="text-xl font-bold">Medicine</p>
+                <p className="">
+                  Pioneering medical advancements for a healthier,
+                  self-sufficient future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/*
       Second section Introduce ourselves 
-      <section className="max-w-6xl w-full flex flex-col md:flex-row items-center text-center md:text-left p-6 shadow-large bg-white rounded-2xl">
-        <h1> hello</h1>
-      </section>*/}
+      */}
       <section className="w-full min-h-screen bg-[#024380] text-white flex flex-col items-center justify-center p-6">
         <div className="h-2/3 w-10/12 text-center">
           <h1 className="text-4xl mt-4 pt-6 pb-6 border-b-4 font-bold">
@@ -143,29 +208,7 @@ export default function Home() {
             dedicated to the development of the country.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 pt-6 flex-wrap">
-            {Ele}
-          </div>
-        </div>
-      </section>
-      {/* A section on our goals for innovation */}
-      <section className="w-full min-h-screen bg-[#005034] text-gray-900 flex items-center justify-center p-6">
-        <div className="container mx-auto grid grid-cols-12 gap-6">
-          <div className="col-span-12 rounded-2xl p-6 bg-white shadow-lg flex items-center justify-center md:col-span-4">
-            <img
-              src="/viksitbharath/Images/Mandala.jpg"
-              alt="Technology"
-              className="w-auto h-auto rounded-xl bg-gray-400"
-            />
-          </div>
-          <div className="col-span-12 bg-gray-100 p-6 rounded-2xl shadow-lg md:col-span-8 grid grid-cols-2">
-            <div className="col-auto">
-              <h2 className="text-xl font-bold col-auto">AREAS OF FOCUS</h2>
-            </div>
-            <div className="col-auto">
-              <p className="text-xl text-gray-700 col-auto">
-                To achieve Self Reliance in these sectors
-              </p>
-            </div>
+            {AVATARS}
           </div>
         </div>
       </section>
