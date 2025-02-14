@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Viksit Bharath",
+  title: "Viksit Bharat",
   description: "India's Vision for 2047",
 };
 
