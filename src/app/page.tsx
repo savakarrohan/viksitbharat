@@ -75,6 +75,8 @@ export default function Home() {
               <a
                 className="mt-6 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdUOnsw22KWsWCbfP39sXkogqk3AqaMRyB55f-33NqjS95G8Q/viewform?usp=dialog"
+                target="_blank"
+                rel="noopener"
               >
                 Reach out to us now
               </a>
