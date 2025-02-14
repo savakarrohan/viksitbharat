@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/vikshit-bharath/viksit-bharath-website/src/app/Mission.tsx/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/src/app/Mission.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/src/app/Mission.tsx <module evaluation>\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAAuR,GACpT,qDACA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file://D%3A/vikshit-bharath/viksit-bharath-website/src/app/Mission.tsx/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/src/app/Mission.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/src/app/Mission.tsx\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAAmQ,GAChS,iCACA"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file://D%3A/vikshit-bharath/viksit-bharath-website/src/app/sometest/page.tsx"],"sourcesContent":["import { Divider } from \"@heroui/react\";\r\nimport Mission from \"../Mission\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <main>\r\n      <Divider />\r\n      <section className=\"py-20 flex items-center\" id=\"Mission\">\r\n        <Mission />\r\n      </section>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC,+MAAA,CAAA,UAAO;;;;;0BACR,8OAAC;gBAAQ,WAAU;gBAA0B,IAAG;0BAC9C,cAAA,8OAAC,sHAAA,CAAA,UAAO;;;;;;;;;;;;;;;;AAIhB"}},
+    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

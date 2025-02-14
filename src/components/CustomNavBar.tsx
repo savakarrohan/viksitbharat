@@ -55,7 +55,7 @@ export default function CustomNavBar() {
           </NavbarItem>
         ))}
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="max-w-96 bg-red-200">
         {menuItems.map((item) => (
           <NavbarMenuItem key={item.key}>
             <Link className="w-full" color="foreground" href="#" size="lg">

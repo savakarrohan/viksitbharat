@@ -7,8 +7,8 @@
   "chunks": [
     "static/chunks/[root of the server]__8ebb6d._.css",
     "static/chunks/node_modules_ae58cb._.js",
-    "static/chunks/src_9825e1._.js",
-    "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_a45373._.js"
+    "static/chunks/src_9394a7._.js",
+    "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_36704e._.js"
   ],
   "source": "dynamic"
 });
