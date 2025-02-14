@@ -58,7 +58,10 @@ export default function Home() {
   return (
     <main className="w-full min-h-screen flex flex-col">
       {/* First section Introduce our title and reach out easily */}
-      <section className="w-full bg-orange-100 min-h-screen items-center justify-center flex flex-col">
+      <section
+        id="Home"
+        className="w-full bg-orange-100 min-h-screen items-center justify-center flex flex-col"
+      >
         <div className="max-w-6xl flex flex-col md:flex-row md:text-left p-6 shadow-large bg-white rounded-2xl">
           <div className="flex-1 p-6">
             <h1 className="text-5xl md:text-8xl font-bold text-gray-900">
@@ -87,7 +90,10 @@ export default function Home() {
         </div>
       </section>
       {/* A section on our goals for innovation */}
-      <section className="w-full min-h-screen bg-[#005034] text-gray-900 flex items-center justify-center p-6">
+      <section
+        id="About Us"
+        className="w-full min-h-screen bg-[#005034] text-gray-900 flex items-center justify-center p-6"
+      >
         <div className="container mx-auto grid grid-cols-12 gap-6">
           <div className="col-span-12 rounded-2xl p-6 bg-white shadow-lg flex items-center justify-center md:col-span-4">
             <img
@@ -98,21 +104,23 @@ export default function Home() {
           </div>
           <div className="col-span-12 bg-gray-100 p-6 rounded-2xl shadow-lg md:col-span-8 grid grid-cols-1 divide-y ">
             {/* Row 1 */}
-            <div className="grid grid-cols-2 gap-4 py-4 items-center justify-center place-items-center">
-              <h1 className="text-3xl font-bold">AREAS OF FOCUS</h1>
-              <p className="text-xl font-semi-bold text-center">
+            <div className="grid grid-cols-12 gap-4 py-4 items-center justify-center place-items-center">
+              <h1 className="text-3xl font-bold col-span-12 md:col-span-6">
+                AREAS OF FOCUS
+              </h1>
+              <p className="text-xl font-semi-bold text-center col-span-12 md:col-span-6">
                 To achieve self reliance in these sectors
               </p>
             </div>
 
             {/* Row 2 */}
-            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+            <div className="grid grid-cols-12 gap-4 py-4 place-items-center">
               <img
                 src="/viksitbharath/Images/Processor.png"
                 alt="Sector 2"
-                className="w-24 h-auto rounded-lg"
+                className="w-24 h-auto rounded-lg col-span-12 md:col-span-6"
               />
-              <div className="grid grid-col-1 gap1 text-center">
+              <div className="grid grid-col-1 gap1 text-center col-span-12 md:col-span-6">
                 <p className="text-xl font-bold">Power Electronics</p>
                 <p className="">
                   Envisioning advanced, sustainable power electronics
@@ -122,13 +130,13 @@ export default function Home() {
             </div>
 
             {/* Row 3 */}
-            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+            <div className="grid grid-cols-12 gap-4 py-4 place-items-center">
               <img
                 src="/viksitbharath/Images/AICompute.png"
                 alt="Sector 2"
-                className="w-24 h-auto rounded-lg"
+                className="w-24 h-auto rounded-lg col-span-12 md:col-span-6"
               />
-              <div className="grid grid-col-1 gap1 text-center">
+              <div className="grid grid-col-1 gap1 text-center col-span-12 md:col-span-6">
                 <p className="text-xl font-bold">Artificial Intelligence</p>
                 <p className="">
                   Safe data-driven innovation for efficiency, growth, and
@@ -136,13 +144,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
+            <div className="grid grid-cols-12 gap-4 py-4 place-items-center">
               <img
                 src="/viksitbharath/Images/Medicine.png"
                 alt="Sector 2"
-                className="w-24 h-auto rounded-lg"
+                className="w-24 h-auto rounded-lg col-span-12 md:col-span-6"
               />
-              <div className="grid grid-col-1 gap1 text-center">
+              <div className="grid grid-col-1 gap1 text-center col-span-12 md:col-span-6">
                 <p className="text-xl font-bold">Medicine</p>
                 <p className="">
                   Pioneering medical advancements for a healthier,
@@ -156,7 +164,10 @@ export default function Home() {
       {/*
       Second section Introduce ourselves 
       */}
-      <section className="w-full min-h-screen bg-[#024380] text-white flex flex-col items-center justify-center p-6">
+      <section
+        id="Mission"
+        className="w-full min-h-screen bg-[#024380] text-white flex flex-col items-center justify-center p-6"
+      >
         <div className="h-2/3 w-10/12 text-center">
           <h1 className="text-4xl mt-4 pt-6 pb-6 border-b-4 font-bold">
             OUR MISSION
@@ -199,7 +210,10 @@ export default function Home() {
         </div>
       </section>
       {/* The list of Panel members */}
-      <section className="w-full min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center justify-center p-6">
+      <section
+        id="Contact Us"
+        className="w-full min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center justify-center p-6"
+      >
         <div className="min-h-2/3 w-10/12 text-center">
           <h1 className="text-4xl mt-4 pt-6 pb-6 text-gray-900">OUR TEAM</h1>
           <p className="border-b-4 text-xl">
