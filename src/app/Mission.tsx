@@ -14,7 +14,7 @@ export default function Mission() {
   return (
     <div className="columns-3">
       <div className="aspect-3/2">
-        <Card className="max-w-7xl min-h-6 items-center">
+        <Card className="max-w-7xl items-center min-h-6 ">
           <CardHeader className="flex gap-3">
             <Image
               alt="heroui logo"
