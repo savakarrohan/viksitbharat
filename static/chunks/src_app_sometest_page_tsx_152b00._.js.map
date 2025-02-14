@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/vikshit-bharath/viksit-bharath-website/src/app/sometest/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\n/**\r\n * This is a testing webpage for CSS styles\r\n */\r\n\r\nimport { Divider } from \"@heroui/react\";\r\nimport Mission from \"../Mission\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <main className=\"flex items-center justify-center w-full\">\r\n      <div>Hello World</div>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AASe,SAAS;IACtB,qBACE,6LAAC;QAAK,WAAU;kBACd,cAAA,6LAAC;sBAAI;;;;;;;;;;;AAGX;KANwB"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
