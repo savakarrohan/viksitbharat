@@ -84,9 +84,9 @@ export default function Home() {
           </div>
           <div className="flex-1 p-6">
             <img
-              src="/viksitbharat/Images/CelebratingBharat.jpg"
+              src="/viksitbharat/Images/DevelopedIndia.png"
               alt="Viksit Bharat"
-              className="w-full h-auto rounded-lg"
+              className="h-auto w-[900px] rounded-lg"
             />
           </div>
         </div>
