@@ -42,7 +42,7 @@ export default function Home() {
       <img
         src={member.img}
         alt={member.name}
-        className="w-24 h-24 rounded-full mb-4"
+        className="w-32 h-32 rounded-full mb-1 border-5 border-[#024380] shadow-lg"
       />
       <a
         href={member.link}
@@ -218,7 +218,7 @@ export default function Home() {
       >
         <div className="min-h-2/3 w-10/12 text-center">
           <h1 className="text-4xl mt-4 pt-6 pb-6 text-gray-900">OUR TEAM</h1>
-          <p className="border-b-4 text-xl">
+          <p className="border-b-5 border-[#024380] text-xl pb-2">
             Our team consists of highly motivated individuals with years of
             experience in academia, entrepreneurship, and other ventures,
             dedicated to the development of the country.
