@@ -62,7 +62,7 @@ export default function Home() {
         id="Home"
         className="w-full bg-orange-100 min-h-screen items-center justify-center flex flex-col"
       >
-        <div className="max-w-6xl flex flex-col md:flex-row md:text-left p-6 shadow-large bg-white rounded-2xl">
+        <div className="max-w-6xl flex flex-col md:flex-row md:text-left p-6 bg-white rounded-2xl shadow-2xl">
           <div className="flex-1 p-6">
             <h1 className="text-5xl md:text-8xl font-bold text-gray-900">
               Viksit Bharat
@@ -86,7 +86,7 @@ export default function Home() {
             <img
               src="/viksitbharat/Images/DevelopedIndia.png"
               alt="Viksit Bharat"
-              className="h-auto w-[900px] rounded-lg"
+              className="h-auto w-[900px] rounded-lg drop-shadow-2xl"
             />
           </div>
         </div>
