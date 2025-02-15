@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   distDir: "out",
   /* config options here */
   // BasePath settings for my github page deployment
-  basePath: "/viksitbharath",
+  basePath: "/viksitbharat",
   images: {
     domains: ["picsum.photos"],
     unoptimized: true,

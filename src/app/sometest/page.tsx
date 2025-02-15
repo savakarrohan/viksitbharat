@@ -79,7 +79,7 @@ export default function Home() {
           </div>
           <div className="flex-1 p-6">
             <img
-              src="/viksitbharath/Images/CelebratingBharat.jpg"
+              src="/viksitbharat/Images/CelebratingBharat.jpg"
               alt="Viksit Bharat"
               className="w-full h-auto rounded-lg"
             />
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-12 gap-6">
           <div className="col-span-12 rounded-2xl p-6 bg-white shadow-lg flex items-center justify-center md:col-span-4">
             <img
-              src="/viksitbharath/Images/Mandala.jpg"
+              src="/viksitbharat/Images/Mandala.jpg"
               alt="Technology"
               className="w-auto h-auto rounded-xl bg-gray-400"
             />
@@ -108,7 +108,7 @@ export default function Home() {
             {/* Row 2 */}
             <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
               <img
-                src="/viksitbharath/Images/Processor.png"
+                src="/viksitbharat/Images/Processor.png"
                 alt="Sector 2"
                 className="w-24 h-auto rounded-lg"
               />
@@ -124,7 +124,7 @@ export default function Home() {
             {/* Row 3 */}
             <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
               <img
-                src="/viksitbharath/Images/AICompute.png"
+                src="/viksitbharat/Images/AICompute.png"
                 alt="Sector 2"
                 className="w-24 h-auto rounded-lg"
               />
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4 py-4 place-items-center">
               <img
-                src="/viksitbharath/Images/Medicine.png"
+                src="/viksitbharat/Images/Medicine.png"
                 alt="Sector 2"
                 className="w-24 h-auto rounded-lg"
               />
@@ -168,7 +168,7 @@ export default function Home() {
                 aim to create world-leading enterprises.
               </p>
               <img
-                src="/viksitbharath/Images/Innovation.png"
+                src="/viksitbharat/Images/Innovation.png"
                 alt="Innovation"
                 className="mt-4 w-auto h-auto rounded-full bg-gray-200"
               />
@@ -179,7 +179,7 @@ export default function Home() {
                 technologies for long-term sustainability and growth.
               </p>
               <img
-                src="/viksitbharath/Images/Technology.png"
+                src="/viksitbharat/Images/Technology.png"
                 alt="Technology"
                 className="mt-4 w-auto h-auto rounded-full bg-gray-400"
               />
@@ -190,7 +190,7 @@ export default function Home() {
                 and make a global impact with cutting-edge advancements.
               </p>
               <img
-                src="/viksitbharath/Images/Globalization.png"
+                src="/viksitbharat/Images/Globalization.png"
                 alt="Global Impact"
                 className="mt-4 w-auto h-auto rounded-full bg-gray-400"
               />
