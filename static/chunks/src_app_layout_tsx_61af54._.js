@@ -6,9 +6,7 @@
   "path": "static/chunks/src_app_layout_tsx_61af54._.js",
   "chunks": [
     "static/chunks/[root of the server]__8ebb6d._.css",
-    "static/chunks/node_modules_ae58cb._.js",
-    "static/chunks/src_9394a7._.js",
-    "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_36704e._.js"
+    "static/chunks/_b7b269._.js"
   ],
   "source": "dynamic"
 });

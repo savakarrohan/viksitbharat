@@ -22,7 +22,7 @@ var _s = __turbopack_refresh__.signature(), _s1 = __turbopack_refresh__.signatur
 ;
 function Page() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "absolute top-0 left-0 w-full",
+        className: "w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "bg-white",
             children: [
@@ -84,10 +84,7 @@ _c = Page;
 const IMG_PADDING = 12;
 const TextParallaxContent = ({ imgUrl, subheading, heading, children })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        style: {
-            paddingLeft: IMG_PADDING,
-            paddingRight: IMG_PADDING
-        },
+        className: "p-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative h-[150vh]",
@@ -96,7 +93,7 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children })=>{
                         imgUrl: imgUrl
                     }, void 0, false, {
                         fileName: "[project]/src/app/sometest/page.tsx",
-                        lineNumber: 53,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(OverlayCopy, {
@@ -104,13 +101,13 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children })=>{
                         subheading: subheading
                     }, void 0, false, {
                         fileName: "[project]/src/app/sometest/page.tsx",
-                        lineNumber: 54,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/sometest/page.tsx",
-                lineNumber: 52,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             children
@@ -164,12 +161,12 @@ const StickyImage = ({ imgUrl })=>{
             }
         }, void 0, false, {
             fileName: "[project]/src/app/sometest/page.tsx",
-            lineNumber: 84,
+            lineNumber: 79,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/sometest/page.tsx",
-        lineNumber: 72,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 };
@@ -220,7 +217,7 @@ const OverlayCopy = ({ subheading, heading })=>{
                 children: subheading
             }, void 0, false, {
                 fileName: "[project]/src/app/sometest/page.tsx",
-                lineNumber: 113,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -228,13 +225,13 @@ const OverlayCopy = ({ subheading, heading })=>{
                 children: heading
             }, void 0, false, {
                 fileName: "[project]/src/app/sometest/page.tsx",
-                lineNumber: 116,
+                lineNumber: 111,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/sometest/page.tsx",
-        lineNumber: 105,
+        lineNumber: 100,
         columnNumber: 5
     }, this);
 };
@@ -254,7 +251,7 @@ const ExampleContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
                 children: "Additional content explaining the above card here"
             }, void 0, false, {
                 fileName: "[project]/src/app/sometest/page.tsx",
-                lineNumber: 123,
+                lineNumber: 118,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -265,7 +262,7 @@ const ExampleContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
                         children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, blanditiis soluta eius quam modi aliquam quaerat odit deleniti minima maiores voluptate est ut saepe accusantium maxime doloremque nulla consectetur possimus."
                     }, void 0, false, {
                         fileName: "[project]/src/app/sometest/page.tsx",
-                        lineNumber: 127,
+                        lineNumber: 122,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -273,7 +270,7 @@ const ExampleContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
                         children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis blanditiis aliquam aut fugit sint."
                     }, void 0, false, {
                         fileName: "[project]/src/app/sometest/page.tsx",
-                        lineNumber: 133,
+                        lineNumber: 128,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -284,25 +281,25 @@ const ExampleContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
                                 className: "inline"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/sometest/page.tsx",
-                                lineNumber: 138,
+                                lineNumber: 133,
                                 columnNumber: 20
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/sometest/page.tsx",
-                        lineNumber: 137,
+                        lineNumber: 132,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/sometest/page.tsx",
-                lineNumber: 126,
+                lineNumber: 121,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/sometest/page.tsx",
-        lineNumber: 122,
+        lineNumber: 117,
         columnNumber: 3
     }, this);
 _c4 = ExampleContent;

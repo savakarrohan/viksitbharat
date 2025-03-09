@@ -34,7 +34,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 });
 const config = {
     plugins: {
-        tailwindcss: {}
+        "@tailwindcss/postcss": {}
     }
 };
 const __TURBOPACK__default__export__ = config;
