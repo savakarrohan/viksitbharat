@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/src_8e36a9._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/src_f11aa2._.js", {
 
 "[project]/src/components/ui/src/TextParallaxContent.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -208,7 +208,7 @@ const ExampleContent = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
                     className: "text-4xl font-extrabold leading-tight md:text-5xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "bg-gradient-to-r from-[#e65733] to-[#e65733] bg-clip-text text-transparent tracking-tight transform transition-transform duration-300 hover:scale-130",
+                            className: "bg-gradient-to-r from-[#e65733] to-[#e65733] bg-clip-text text-transparent",
                             children: "India"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ui/src/TextParallaxContent.tsx",
@@ -386,10 +386,10 @@ function Mission() {
                         transition: {
                             duration: 0.8
                         },
-                        className: "flex flex-col justify-center space-y-8",
+                        className: "space-y-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-5xl font-extrabold text-white mb-6 leading-tight",
+                                className: "text-4xl font-bold text-white mb-4",
                                 children: "Our Mission"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/sometest/Mission.tsx",
@@ -397,16 +397,16 @@ function Mission() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl text-white leading-relaxed",
+                                className: "text-lg text-white",
                                 children: [
                                     "We exist to catalyze cross-sector",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-amber-300 font-semibold",
+                                        className: "text-amber-300 font-bold",
                                         children: "collaboration"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/sometest/Mission.tsx",
-                                        lineNumber: 30,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this),
                                     " ",
@@ -419,18 +419,18 @@ function Mission() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/sometest/Mission.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, this),
                                     "."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/sometest/Mission.tsx",
-                                lineNumber: 28,
+                                lineNumber: 26,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl text-white leading-relaxed",
+                                className: "text-lg text-white",
                                 children: [
                                     "Our objectives include enabling easier access to advanced technology, strengthening academia-industry partnerships, advancing",
                                     " ",
@@ -439,22 +439,34 @@ function Mission() {
                                         children: "R&D and indigenous innovation"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/sometest/Mission.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this),
                                     ", and advocating for policies that support sustainable and inclusive growth."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/sometest/Mission.tsx",
-                                lineNumber: 40,
+                                lineNumber: 36,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl italic text-white leading-relaxed",
-                                children: "We aim to build a stronger Bharat — through collaboration, skill development, knowledge exchange, and world-class entrepreneurship."
-                            }, void 0, false, {
+                                className: "text-lg italic text-white",
+                                children: [
+                                    "We aim to build a stronger",
+                                    " ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-amber-300 font-bold",
+                                        children: "Bharat"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/sometest/Mission.tsx",
+                                        lineNumber: 48,
+                                        columnNumber: 15
+                                    }, this),
+                                    " — through collaboration, skill development, knowledge exchange, and world-class entrepreneurship."
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/app/sometest/Mission.tsx",
-                                lineNumber: 50,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -514,9 +526,9 @@ function Mission() {
                                 image: "/viksitbharat/Icons/09_Agricultural.png"
                             }
                         ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col items-center space-y-2 transform transition-transform duration-300 hover:scale-130",
+                                className: "flex flex-col items-center space-y-2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-20 h-20 p-3 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-xl border-1 border-white overflow-hidden",
+                                    className: "w-20 h-20 p-3 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-xl border-1 border-white  overflow-hidden",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: item.image,
                                         alt: item.caption,
@@ -525,22 +537,22 @@ function Mission() {
                                         className: "object-contain w-full h-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/sometest/Mission.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 101,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/sometest/Mission.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 100,
                                     columnNumber: 17
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/src/app/sometest/Mission.tsx",
-                                lineNumber: 101,
+                                lineNumber: 99,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/sometest/Mission.tsx",
-                        lineNumber: 57,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 ]
@@ -563,7 +575,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/app/sometest/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/app/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
@@ -586,16 +598,16 @@ function Page() {
     /**
    * These are the avatar items
    */ const AVATARS = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$fixture$2f$avatars$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AVATAR_LIST"].map((member, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col items-center text-center px-4 py-6 rounded-4xl bg-white shadow-xl transition-transform duration-300 hover:scale-115 hover:bg-[#02438028]",
+            className: "flex flex-col items-center text-center px-4 py-6 rounded-2xl bg-white shadow-xl transition-transform duration-300 hover:scale-115",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: member.img,
                     alt: member.name,
                     width: 160,
                     height: 160,
-                    className: "w-36 h-36 rounded-full object-cover mb-4 border-4 border-[#024380]"
+                    className: "w-36 h-36 rounded-full object-cover mb-4 border-4 border-neutral-200"
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 22,
                     columnNumber: 7
                 }, this),
@@ -603,16 +615,16 @@ function Page() {
                     href: member.link,
                     target: "_blank",
                     rel: "noopener noreferrer",
-                    className: "text-lg font-medium text-neutral-800 hover:underline hover:underline-offset-2 transition-colors duration-200 break-words",
+                    className: "text-lg font-medium text-neutral-800 hover:text-blue-700 transition-colors duration-200 break-words",
                     children: member.name
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 29,
                     columnNumber: 7
                 }, this)
             ]
         }, index, true, {
-            fileName: "[project]/src/app/sometest/page.tsx",
+            fileName: "[project]/src/app/page.tsx",
             lineNumber: 18,
             columnNumber: 5
         }, this));
@@ -626,17 +638,17 @@ function Page() {
                     subheading: "Our vision for a progressive, prosperous & developed India, built   on innovation, inclusivity, and development",
                     heading: "Viksit Bharat",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$src$2f$TextParallaxContent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ExampleContent"], {}, void 0, false, {
-                        fileName: "[project]/src/app/sometest/page.tsx",
+                        fileName: "[project]/src/app/page.tsx",
                         lineNumber: 49,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$sometest$2f$Mission$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 52,
                     columnNumber: 9
                 }, this),
@@ -655,12 +667,12 @@ function Page() {
                                     alt: "Technology",
                                     className: "w-auto h-auto rounded-xl bg-gray-400"
                                 }, void 0, false, {
-                                    fileName: "[project]/src/app/sometest/page.tsx",
+                                    fileName: "[project]/src/app/page.tsx",
                                     lineNumber: 60,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 59,
                                 columnNumber: 13
                             }, this),
@@ -674,7 +686,7 @@ function Page() {
                                                 className: "text-3xl font-bold col-span-12 md:col-span-6",
                                                 children: "AREAS OF FOCUS"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 71,
                                                 columnNumber: 17
                                             }, this),
@@ -682,13 +694,13 @@ function Page() {
                                                 className: "text-xl font-semi-bold text-center col-span-12 md:col-span-6",
                                                 children: "To achieve self reliance in these sectors"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 74,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 70,
                                         columnNumber: 15
                                     }, this),
@@ -702,7 +714,7 @@ function Page() {
                                                 alt: "Sector 2",
                                                 className: "w-24 h-auto rounded-lg col-span-12 md:col-span-6"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 81,
                                                 columnNumber: 17
                                             }, this),
@@ -713,7 +725,7 @@ function Page() {
                                                         className: "text-xl font-bold",
                                                         children: "Power Electronics"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 89,
                                                         columnNumber: 19
                                                     }, this),
@@ -721,19 +733,19 @@ function Page() {
                                                         className: "",
                                                         children: "Envisioning advanced, sustainable power electronics manufacturing for self-reliance."
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 90,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 88,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 80,
                                         columnNumber: 15
                                     }, this),
@@ -747,7 +759,7 @@ function Page() {
                                                 alt: "Sector 2",
                                                 className: "w-24 h-auto rounded-lg col-span-12 md:col-span-6"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 99,
                                                 columnNumber: 17
                                             }, this),
@@ -758,7 +770,7 @@ function Page() {
                                                         className: "text-xl font-bold",
                                                         children: "Artificial Intelligence"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 107,
                                                         columnNumber: 19
                                                     }, this),
@@ -766,19 +778,19 @@ function Page() {
                                                         className: "",
                                                         children: "Safe data-driven innovation for efficiency, growth, and self-reliance."
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 108,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 106,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 98,
                                         columnNumber: 15
                                     }, this),
@@ -792,7 +804,7 @@ function Page() {
                                                 alt: "Sector 2",
                                                 className: "w-24 h-auto rounded-lg col-span-12 md:col-span-6"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 115,
                                                 columnNumber: 17
                                             }, this),
@@ -803,7 +815,7 @@ function Page() {
                                                         className: "text-xl font-bold",
                                                         children: "Medicine"
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 123,
                                                         columnNumber: 19
                                                     }, this),
@@ -811,36 +823,36 @@ function Page() {
                                                         className: "",
                                                         children: "Pioneering medical advancements for a healthier, self-sufficient future."
                                                     }, void 0, false, {
-                                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                                        fileName: "[project]/src/app/page.tsx",
                                                         lineNumber: 124,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 122,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 114,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/sometest/page.tsx",
+                        fileName: "[project]/src/app/page.tsx",
                         lineNumber: 58,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 54,
                     columnNumber: 9
                 }, this),
@@ -854,7 +866,7 @@ function Page() {
                                 className: "text-4xl mt-4 pt-6 pb-6 text-gray-900",
                                 children: "OUR TEAM"
                             }, void 0, false, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 138,
                                 columnNumber: 13
                             }, this),
@@ -862,7 +874,7 @@ function Page() {
                                 className: "border-b-5 border-[#024380] text-xl pb-2",
                                 children: "Our team consists of highly motivated individuals with years of experience in academia, entrepreneurship, and other ventures, dedicated to the development of the country."
                             }, void 0, false, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 139,
                                 columnNumber: 13
                             }, this),
@@ -870,18 +882,18 @@ function Page() {
                                 className: "grid grid-cols-1 md:grid-cols-5 gap-6 mt-6 pt-6 flex-wrap",
                                 children: AVATARS
                             }, void 0, false, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 144,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/sometest/page.tsx",
+                        fileName: "[project]/src/app/page.tsx",
                         lineNumber: 137,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 133,
                     columnNumber: 9
                 }, this),
@@ -895,7 +907,7 @@ function Page() {
                                 className: "text-4xl mt-4 pt-6 pb-6 border-b-4 font-bold",
                                 children: "OUR MISSION"
                             }, void 0, false, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 157,
                                 columnNumber: 13
                             }, this),
@@ -909,7 +921,7 @@ function Page() {
                                                 className: "flex-1",
                                                 children: "By bringing together India’s top inventors and entrepreneurs, we aim to create world-leading enterprises."
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 162,
                                                 columnNumber: 17
                                             }, this),
@@ -920,13 +932,13 @@ function Page() {
                                                 alt: "Innovation",
                                                 className: "mt-4 w-auto h-auto rounded-full bg-gray-200"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 166,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 161,
                                         columnNumber: 15
                                     }, this),
@@ -937,7 +949,7 @@ function Page() {
                                                 className: "flex-1",
                                                 children: "We are committed to systematically indigenizing the underlying technologies for long-term sustainability and growth."
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 175,
                                                 columnNumber: 17
                                             }, this),
@@ -948,13 +960,13 @@ function Page() {
                                                 alt: "Technology",
                                                 className: "mt-4 w-auto h-auto rounded-full bg-gray-400"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 179,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 174,
                                         columnNumber: 15
                                     }, this),
@@ -965,7 +977,7 @@ function Page() {
                                                 className: "flex-1",
                                                 children: "Our mission is to drive innovation, foster economic development, and make a global impact with cutting-edge advancements."
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 188,
                                                 columnNumber: 17
                                             }, this),
@@ -976,41 +988,41 @@ function Page() {
                                                 alt: "Global Impact",
                                                 className: "mt-4 w-auto h-auto rounded-full bg-gray-400"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/sometest/page.tsx",
+                                                fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 193,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/app/sometest/page.tsx",
+                                        fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 187,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/app/sometest/page.tsx",
+                                fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 160,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/sometest/page.tsx",
+                        fileName: "[project]/src/app/page.tsx",
                         lineNumber: 156,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/sometest/page.tsx",
+                    fileName: "[project]/src/app/page.tsx",
                     lineNumber: 152,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/src/app/sometest/page.tsx",
+            fileName: "[project]/src/app/page.tsx",
             lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/src/app/sometest/page.tsx",
+        fileName: "[project]/src/app/page.tsx",
         lineNumber: 41,
         columnNumber: 5
     }, this);
@@ -1022,11 +1034,11 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/app/sometest/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": ((__turbopack_context__) => {
+"[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
 }}),
 }]);
 
-//# sourceMappingURL=src_8e36a9._.js.map
+//# sourceMappingURL=src_f11aa2._.js.map
